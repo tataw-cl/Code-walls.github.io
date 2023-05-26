@@ -57,3 +57,7 @@
   margin-top: 1.5cm;
   color: black;
 }
+.head1{
+  text-align: center;
+  overflow-wrap: break-word;
+}
