@@ -1,3 +1,6 @@
+.big-div{
+  background-color: rgba(238, 233, 233, 0.548);
+}
  .navbar{
     background-color:  #00C9FF;
     background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
@@ -154,7 +157,10 @@
  overflow-wrap: break-word;
 }
 .Register-subjects{
-  margin-bottom: 2cm;
+  height: 15cm;
+  background-color: rgb(255, 255, 255);
+  border: #e9eaeb ;
+  padding-bottom: 20cm;
 }
  
      
