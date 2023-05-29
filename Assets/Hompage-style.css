@@ -141,11 +141,13 @@
 .container{
  text-align: center;
 }
-#regis{
+.regis #regis{ 
  margin-left: 1cm;
  margin-right: 1cm;
  margin-top: 1.5cm;
  color: black;
+ border-radius: 0.5cm;
+ padding-bottom: -3cm;
 }
 .head1{
  text-align: center;
