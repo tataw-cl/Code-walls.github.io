@@ -1,12 +1,12 @@
  .navbar{
     background-color:  #00C9FF;
-        background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
-        background: linear-gradient(to right, #92FE9D, #00C9FF);
-        color: rgb(133, 128, 121);
-         padding-right: 4.5rem;
+    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+    background: linear-gradient(to right, #92FE9D, #00C9FF);
+    color: rgb(133, 128, 121);
+    padding-right: 4.5rem;
  } 
  .nav-item{
-     padding: 10px auto; 
+    padding: 10px auto; 
     margin-left: 0.4cm;
     display: flex;
     font-weight: 400;
@@ -29,19 +29,59 @@
    border: none; 
  }  
  .container-body{  
-   border-radius: 2cm;
-   height: 12cm;
+   height: 13cm;
    align-items: center;
    margin-top: 1.5cm;
-   margin-bottom: 1.5cm;
+   margin-bottom: 1.5cm; 
+   background-color: #424444; 
+ }
+ .about p{
+  color:  rgb(255, 255, 255);
+  text-align: center;
+ }
+ .p-text{
+  padding-top: 0.3cm;
+  height: 3cm;
+  width: 23cm;
+  margin-left: 7cm;
+  align-items: center;
+  font-weight: 300;
+  font-size: 2cm;
+  padding-bottom: 4.4cm;
+ }
+ .row{
+  padding: 0.4cm;
  }
  .about h3{
-   font-size: larger;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   font-size: 1cm;
-   text-align: left;
-   margin-left: 3cm;
-   margin-top: 0.7cm;
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 1.2cm;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   margin-left: 0.3cm;
+   font-weight: 900; 
+   
+ }
+ #features h3{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 0.8cm;
+}
+.feature-box{
+  padding-bottom: 2%;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+}
+.fa-solid{
+  color:#5fd0f0;
+  margin-bottom: 1rem;
+  
+}
+.fa-solid:hover{
+  color:#00C9FF 
+}
+ .heading{
+  padding-top: 0.3cm;
  }
 
  /* REGISTER STYLES  */
