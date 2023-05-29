@@ -41,7 +41,7 @@
    border: none;
    font-weight: 700;
  }
- .container{
+ .container-body{
    height: 12cm;
    border: solid 5px #00C9FF ;
    align-items: center;
@@ -59,7 +59,75 @@
    margin-top: 0.7cm;
  }
 
-    
+ /* REGISTER STYLES  */
 
+ .card1{
+  border-radius: 15px;
+  border: 8px solid #00C9FF;
+  width: 400px;
+  height: 350px;
+  border-style: groove;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+ margin-left: 1px;
+ margin-top: 1cm;
+ }
+ .card2{
+   border-radius: 15px;
+  border: 8px solid #92FE9D;
+  width: 400px; 
+  border-style: groove;
+  height: 350px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 18cm;
+  margin-top: 2cm;
+ }
+ .arrow-container {
+   font-size: 40px;
+ }
+ 
+ .arrow {
+   border: solid black;
+   border-width: 0 3px 3px 0;
+   display: inline-block;
+   padding: 3px;
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+ }
+ /* .my-line {
+   border: none;
+   border-top: 1px solid black;
+   margin: 20px 0;
+ }
+ .dotted-line {
+   border: 1px dotted #333;
+   height: 20px;
+   width: 100%;
+ } */
+ p{
+   font-size: large;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-top: 1.5cm;
+ }
+ button{
+   float: right;
+   margin-right: 1px;
+   
+ }
+.container{
+ text-align: center;
+}
+.btn{
+ margin-left: 1cm;
+ margin-right: 1cm;
+ margin-top: 1.5cm;
+ color: black;
+}
+.head1{
+ text-align: center;
+ overflow-wrap: break-word;
+}
+.Register-subjects{
+  margin-bottom: 2cm;
+}
  
      
