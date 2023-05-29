@@ -33,11 +33,14 @@
    border: none; 
  }  
  .container-body{  
-   height: 13cm;
+   height: 15cm;
+   width: 98%;
    align-items: center;
    margin-top: 1.5cm;
    margin-bottom: 1.5cm; 
    background-color: #424444; 
+   text-align: center;
+   margin-left: 1%;
  }
  .about p{
   color:  rgb(255, 255, 255);
@@ -71,7 +74,7 @@
   font-size: 0.8cm;
 }
 .feature-box{
-  padding-bottom: 2%;
+  padding-top: 1cm;
   justify-content: center;
   text-align: center;
   display: inline-block;
@@ -159,6 +162,8 @@
 }
 .Register-subjects{
   height: 15cm;
+  width: 98%;
+  margin-left: 1%;
   background-color: rgb(255, 255, 255);
   border: #e9eaeb ;
   padding-bottom: 20cm;
