@@ -33,7 +33,7 @@
    border: none; 
  }  
  .container-body{  
-   height: 15cm;
+   height: 14cm;
    width: 98%;
    align-items: center;
    margin-top: 1.5cm;
@@ -47,13 +47,13 @@
   text-align: center;
  }
  .p-text{
-  padding-top: 0.3cm;
+  padding-top: 0.5cm;
   height: 3cm;
   width: 23cm;
   margin-left: 7cm;
   align-items: center;
   font-weight: 300;
-  font-size: 2cm;
+  font-size: 5cm;
   padding-bottom: 4.4cm;
  }
  .row{
@@ -74,7 +74,7 @@
   font-size: 0.8cm;
 }
 .feature-box{
-  padding-top: 1cm;
+  padding-top: 0.1cm;
   justify-content: center;
   text-align: center;
   display: inline-block;
